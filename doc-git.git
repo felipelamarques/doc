@@ -10,13 +10,13 @@ git commit -m "first commit"
 git branch -M ESCREVAOTEXTO
 #renomea o nome da branch atual
 
-git remote add origin https://github.com/felipelamarques/doc.git
+git remote add origin https://github.com/felipelamarques/NOMEREPOSITORIO.git
 #
 
 git push -u origin main
 #Sobe as alterações para o repositório online
 
-git clone https://github.com/rafaballerini/GitTutorial.git 
+git clone https://github.com/felipelamarques/NOMEREPOSITORIO.git
 #Copia o repositório online num local
 
 git pull 
