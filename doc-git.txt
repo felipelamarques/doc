@@ -1,0 +1,23 @@
+git init 
+#Inicia o git
+
+git add .
+#prepara os arquivos modificados para o commit
+
+git commit -m "first commit"
+#commit
+
+git branch -M ESCREVAOTEXTO
+#renomea o nome da branch atual
+
+git remote add origin https://github.com/felipelamarques/doc.git
+#
+
+git push -u origin main
+#Sobe as alterações para o repositório online
+
+git clone https://github.com/rafaballerini/GitTutorial.git 
+#Copia o repositório online num local
+
+git pull 
+#Sincroniza o repositório local com o online
