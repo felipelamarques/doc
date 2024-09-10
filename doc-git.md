@@ -1,28 +1,22 @@
 # Como usar o Git e Github na prática
 ## Lista de comandos
-git init 
-#Inicia o git
+`git init` Inicia o git
 
-git add .
-#prepara os arquivos modificados para o commit
+`git add .` prepara os arquivos modificados para o commit
 
-git commit -m "first commit"
-#commit
+`git commit -m "first commit"` commit
 
-git branch -M ESCREVAOTEXTO
-#renomea o nome da branch atual
+`git branch -M "main"` renomea o nome da branch atual
 
-git remote add origin https://github.com/felipelamarques/NOMEREPOSITORIO.git
-#
+``git remote add origin https://github.com/felipelamarques/NOMEREPOSITORIO.git`` Conecta remotamente com o repositório do github
 
-git push -u origin main
-#Sobe as alterações para o repositório online
+``git push -u origin main`` Sobe as alterações para o repositório online
 
-git clone https://github.com/NICKGITHUB/NOMEREPOSITORIO.git
-#Copia o repositório online num local
+``git clone https://github.com/NICKGITHUB/NOMEREPOSITORIO.git`` Copia o repositório online num local
 
-git pull 
-#Sincroniza o repositório local com o online
+``git pull``  Sincroniza o repositório local com o online
+
+teste
 
 ## Instalando o GIT
 
